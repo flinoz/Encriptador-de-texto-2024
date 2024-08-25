@@ -1,60 +1,66 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const btnEncriptar = document.querySelector('.btn-encriptar');
-    const btnDesencriptar = document.querySelector('.btn-desencriptar');
-    const btnEliminar = document.querySelector('.btn-eliminar');
-    const textarea = document.querySelector('.texto');
-    const tituloMensaje = document.querySelector('#titulo-mensaje');
-    const parrafo = document.querySelector('#parrafo');
-    const muñeco = document.querySelector('.muñeco');
+document.querySelector(".btn-encriptar").addEventListener("click", encriptar);
+document
+  .querySelector(".btn-desencriptar")
+  .addEventListener("click", desencriptar);
+document.querySelector(".btn-eliminar").addEventListener("click", eliminar);
 
-    btnEncriptar.addEventListener('click', () => {
-        let texto = textarea.value;
-        if (texto.trim() !== '') {
-            let textoEncriptado = texto
-                .replace(/e/gi, "enter")
-                .replace(/i/gi, "imes")
-                .replace(/a/gi, "ai")
-                .replace(/o/gi, "ober")
-                .replace(/u/gi, "ufat");
+function encriptar() {
+  let texto = document.getElementById("texto").value;
+  let tituloMensaje = document.getElementById("titulo-mensaje");
+  let parrafo = document.getElementById("parrafo");
+  let muñeco = document.getElementById("muñeco");
 
-            textarea.value = textoEncriptado;
-            tituloMensaje.textContent = "Texto encriptado con éxito";
-            parrafo.textContent = "";
-            muñeco.src = "img/encriptado.jpg"; // Asegúrate de que la imagen exista en la ruta
-        } else {
-            muñeco.src = "img/muñeco.png";
-            tituloMensaje.textContent = "Ningún mensaje fue encontrado";
-            parrafo.textContent = "Ingresa el texto que deseas encriptar";
-            swal("Ooops!", "Debes ingresar un texto", "warning");
-        }
-    });
+  let textoCifrado = texto
+    .replace(/e/gi, "enter")
+    .replace(/i/gi, "imes")
+    .replace(/a/gi, "ai")
+    .replace(/o/gi, "ober")
+    .replace(/u/gi, "ufat");
 
-    btnDesencriptar.addEventListener('click', () => {
-        let texto = textarea.value;
-        if (texto.trim() !== '') {
-            let textoDesencriptado = texto
-                .replace(/enter/gi, "e")
-                .replace(/imes/gi, "i")
-                .replace(/ai/gi, "a")
-                .replace(/ober/gi, "o")
-                .replace(/ufat/gi, "u");
+  if (texto.length != 0) {
+    document.getElementById("texto").value = textoCifrado;
+    tituloMensaje.textContent = "Texto encriptado con éxito";
+    parrafo.textContent = "";
+    muñeco.src = "img/encriptado.jpg"; // Actualiza la imagen cuando se encripta
+  } else {
+    muñeco.src = "img/muñeco.png";
+    tituloMensaje.textContent = "Ningún mensaje fue encontrado";
+    parrafo.textContent =
+      "Ingresa el texto que deseas encriptar o desencriptar";
+    alert("Debes ingresar un texto"); // Reemplazado swal por alert para simplificar
+  }
+}
 
-            textarea.value = textoDesencriptado;
-            tituloMensaje.textContent = "Texto desencriptado con éxito";
-            parrafo.textContent = "";
-            muñeco.src = "img/desencriptado.jpg"; // Asegúrate de que la imagen exista en la ruta
-        } else {
-            muñeco.src = "img/muñeco.png";
-            tituloMensaje.textContent = "Ningún mensaje fue encontrado";
-            parrafo.textContent = "Ingresa el texto que deseas desencriptar";
-            swal("Ooops!", "Debes ingresar un texto", "warning");
-        }
-    });
+function desencriptar() {
+  let texto = document.getElementById("texto").value;
+  let tituloMensaje = document.getElementById("titulo-mensaje");
+  let parrafo = document.getElementById("parrafo");
+  let muñeco = document.getElementById("muñeco");
 
-    btnEliminar.addEventListener('click', () => {
-        textarea.value = '';
-        tituloMensaje.textContent = '';
-        parrafo.textContent = '';
-        muñeco.src = "img/muñeco.png"; // Imagen por defecto
-    });
-});
+  let textoCifrado = texto
+    .replace(/enter/gi, "e")
+    .replace(/imes/gi, "i")
+    .replace(/ai/gi, "a")
+    .replace(/ober/gi, "o")
+    .replace(/ufat/gi, "u");
+
+  if (texto.length != 0) {
+    document.getElementById("texto").value = textoCifrado;
+    tituloMensaje.textContent = "Texto desencriptado con éxito";
+    parrafo.textContent = "";
+    muñeco.src = "img/desencriptado.jpg"; // Actualiza la imagen cuando se desencripta
+  } else {
+    muñeco.src = "img/muñeco.png";
+    tituloMensaje.textContent = "Ningún mensaje fue encontrado";
+    parrafo.textContent =
+      "Ingresa el texto que deseas encriptar o desencriptar";
+    alert("Debes ingresar un texto"); // Reemplazado swal por alert para simplificar
+  }
+}
+
+function eliminar() {
+  document.getElementById("texto").value = "";
+  document.getElementById("titulo-mensaje").textContent = "Mensaje eliminado";
+  document.getElementById("parrafo").textContent = "";
+  document.getElementById("muñeco").src = "img/muñeco.png"; // Actualiza la imagen al eliminar el texto
+}
