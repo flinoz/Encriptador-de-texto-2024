@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <textarea class="texto" placeholder="Ingrese el texto aquí..."></textarea>
-        <div class="botones">
+    <header>
+        <img src="img/encriptador de texto.jpeg" alt="Encriptador de Texto" id="logo" class="logo">
+        <p>Ⓡ Creado para ti con <span class="heart">❤️</span> por solecito 2024</p>
+    </header>
+
+    <main>
+        <textarea id="texto" class="texto" placeholder="Introduce el texto aquí..."></textarea>
+        <div class="buttons">
             <button class="btn-encriptar">Encriptar</button>
             <button class="btn-desencriptar">Desencriptar</button>
             <button class="btn-eliminar">Eliminar</button>
         </div>
-        <div class="encriptado">
-            <img src="img/muñeco.png" alt="Imagen encriptada" class="muñeco">
-            <div class="mensaje-encriptado">
-                <h2 id="titulo-mensaje">Mensaje Encriptado</h2>
-                <p id="parrafo">Este es un encriptador simple de textos para fines educativos.</p>
-            </div>
-        </div>
+        <h3 id="titulo-mensaje"></h3>
+        <p id="parrafo"></p>
+        <img id="muñeco" src="img/muñeco.png" alt="Muñeco" class="img-muñeco">
+    </main>
+
+
+
+    <!-- Sección para los íconos de redes sociales -->
+    <div class="social-icons">
+        <a href="https://github.com/tu-usuario" target="_blank">
+            <img src="img/github.png" alt="GitHub" class="social-icon">
+        </a>
+        <a href="https://linkedin.com/in/tu-usuario" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn" class="social-icon">
+        </a>
     </div>
-    <footer class="footer">
-        <p>Ⓡ Creado para ti con <span class="heart">❤️</span> por solecito 2024</p>
-        <div style="text-align: center; margin-top: 10px;">
-            <img src="img/logo.png" alt="Logo" style="width: 100px; height: auto;">
-        </div>
-    </footer>
-    <script src="script.js"></script>
+    <script src="./index.js"></script>
 </body>
+
 </html>
