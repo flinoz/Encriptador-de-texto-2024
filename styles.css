@@ -101,3 +101,23 @@ main {
     1.1
   ); /* Efecto de aumento al pasar el ratón sobre el ícono */
 }
+
+/* Estilo para centrar los íconos y la nueva imagen */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  width: 40px;
+  height: auto;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
