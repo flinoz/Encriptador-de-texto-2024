@@ -1,0 +1,1 @@
+# Encriptador-de-texto-2024
