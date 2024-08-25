@@ -27,7 +27,7 @@ Este es un proyecto de encriptador de texto desarrollado en HTML, CSS y JavaScri
 
 ## Capturas de Pantalla
 
-![Encriptador de Texto](img/encriptador%20de%20texto.jpeg)
+![Captura de Pantalla](img/Captura%20de%20pantalla.png)
 
 ## Contribuciones
 
