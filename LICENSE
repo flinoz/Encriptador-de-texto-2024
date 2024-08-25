@@ -1,21 +1,65 @@
-MIT License
+Licencia Apache
+Versión 2.0, enero de 2004
+http://www.apache.org/licenses/
 
-Copyright (c) 2024 flinoz
+TÉRMINOS Y CONDICIONES PARA EL USO, REPRODUCCIÓN Y DISTRIBUCIÓN
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Definiciones.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+   "Licencia" significará los términos y condiciones para el uso, reproducción y distribución definidos por las Secciones 1 a 9 de este documento.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+   "Licenciante" significará el titular de los derechos de autor o entidad autorizada por el titular de los derechos de autor que está otorgando la Licencia.
+
+   "Usted" (o "Su") significará una persona o Entidad Jurídica que ejerza los permisos otorgados por esta Licencia.
+
+   "Forma de Código Fuente" significará la forma preferida para realizar modificaciones, incluyendo pero no limitado a código fuente de software, documentación y archivos de configuración.
+
+   "Forma de Objeto" significará cualquier forma resultante de transformación o traducción mecánica de una Forma de Código Fuente, incluyendo pero no limitado a código compilado, código binario y documentación.
+
+   "Obra" significará la obra de autoría, ya sea en Forma de Código Fuente o Forma de Objeto, disponible bajo la Licencia.
+
+   "Obras Derivadas" significará cualquier obra, ya sea en Forma de Código Fuente o Forma de Objeto, que se base en o incorpore la Obra o cualquier parte de la misma.
+
+   "Contribución" significará cualquier obra de autoría, incluyendo cualquier modificación o adición a una obra existente, que se presente al Licenciante para su inclusión en la Obra.
+
+   "Reclamaciones de Patentes" significará cualquier reclamación en cualquier patente o solicitud de patente, incluyendo sin limitación, cualquier reclamación de una reemisión, continuación o continuación en parte de tal patente o solicitud de patente, que sería infringida por hacer, usar, vender, ofrecer para la venta, o importar la Obra o cualquier parte de la misma.
+
+2. Concesión de Licencia de Derechos de Autor.
+
+   Sujeto a los términos y condiciones de esta Licencia, cada Licenciante por la presente le concede a Usted una licencia perpetua, mundial, no exclusiva, libre de regalías para reproducir, preparar Obras Derivadas de, exhibir públicamente, realizar públicamente, sublicenciar y distribuir la Obra y tales Obras Derivadas en Forma de Código Fuente o Forma de Objeto.
+
+3. Concesión de Licencia de Patentes.
+
+   Sujeto a los términos y condiciones de esta Licencia, cada Licenciante por la presente le concede a Usted una licencia perpetua, mundial, no exclusiva, libre de regalías bajo cualquier Reclamación de Patentes propiedad o controlada por el Licenciante para hacer, usar, vender, ofrecer para la venta, importar y de otro modo transferir la Obra y Obras Derivadas de la misma.
+
+4. Redistribución.
+
+   Puede reproducir y distribuir copias de la Obra o Obras Derivadas de la misma en cualquier medio, con o sin modificaciones, y en Forma de Código Fuente o Forma de Objeto, siempre que cumpla con las siguientes condiciones:
+
+   (a) Debe proporcionar a cualquier otro receptor de la Obra o Obras Derivadas una copia de esta Licencia; y
+
+   (b) Debe hacer que cualquier archivo modificado lleve avisos prominentes que indiquen que ha cambiado los archivos; y
+
+   (c) Debe conservar, en la Forma de Código Fuente de la Obra o Obras Derivadas, todos los avisos de derechos de autor, patentes, marcas comerciales y atribución de la Forma de Código Fuente de la Obra, excluyendo aquellos avisos que no se refieran a ninguna parte de las Obras Derivadas; y
+
+   (d) Si la Obra incluye un archivo "NOTICE" como se describe en la Sección 4, debe incluir una copia legible de los avisos de atribución contenidos en dicho archivo NOTICE, excluyendo aquellos avisos que no se refieran a ninguna parte de las Obras Derivadas, en cualquier material proporcionado con la Obra o Obras Derivadas.
+
+5. Presentación de Contribuciones.
+
+   Excepto por el Licenciante, cada Colaborador proporciona sus Contribuciones bajo esta Licencia en su propia capacidad, y no como empleado o agente de ninguna otra entidad. Las Contribuciones presentadas al Licenciante se considerarán licenciadas al Licenciante bajo la Licencia.
+
+6. Marcas Comerciales.
+
+   Esta Licencia no concede permiso para usar los nombres comerciales, marcas comerciales, marcas de servicio o nombres de productos del Licenciante, excepto como sea necesario para cumplir con la Sección 4(c).
+
+7. Descargo de Garantía.
+
+   La Obra se licencia en una base "TAL CUAL", sin garantías ni condiciones de ningún tipo, ya sean expresas o implícitas. Consulte la Licencia para el lenguaje específico que rige los permisos y limitaciones.
+
+8. Limitación de Responsabilidad.
+
+   En ningún caso y bajo ninguna teoría legal, ya sea en tort (incluyendo negligencia), contrato o de otro modo, a menos que lo requiera la ley aplicable (como actos deliberados y gravemente negligentes) o acordado por escrito, el Licenciante será responsable ante Usted por daños indirectos, especiales, incidentales o consecuenciales de ningún tipo que surjan como resultado de esta Licencia o el uso de la Obra, incluyendo sin limitación, daños por pérdida de buena voluntad, interrupción del trabajo, fallos o mal funcionamiento de la computadora, o cualquier y todos los demás daños o pérdidas comerciales.
+
+9. Aceptación de la Licencia.
+
+   Al ejercer cualquiera de los derechos otorgados bajo esta Licencia, Usted acepta y acuerda los términos y condiciones de esta Licencia.
