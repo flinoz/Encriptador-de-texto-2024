@@ -64,3 +64,16 @@ function eliminar() {
   document.getElementById("parrafo").textContent = "";
   document.getElementById("muñeco").src = "img/muñeco.png"; // Actualiza la imagen al eliminar el texto
 }
+
+function validarTexto() {
+  const input = document.getElementById("texto");
+  const mensajeError = document.getElementById("mensaje-error");
+  const regex = /^[a-z\s]*$/;
+
+  if (!regex.test(input.value)) {
+    mensajeError.style.display = "block";
+    input.value = ""; // Limpiar el campo de texto si no es válido
+  } else {
+    mensajeError.style.display = "none";
+  }
+}
