@@ -121,3 +121,8 @@ main {
 .social-icon:hover {
   transform: scale(1.1);
 }
+
+#mensaje-error {
+  font-size: 16px; /* Aumenta ligeramente el tamaño de la fuente */
+  color: red; /* Color rojo para el mensaje */
+}
