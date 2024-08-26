@@ -44,4 +44,4 @@ Este proyecto está licenciado bajo la Licencia Apache 2.0 - consulta el archivo
 
 ## Contacto
 
-Para cualquier consulta o soporte, por favor contacta a flinoz en flinoz91@gmail.com.
+Para cualquier consulta o soporte, por favor contacta a flinoz en flinoz91@gmail.com
