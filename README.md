@@ -27,8 +27,7 @@ Este es un proyecto de encriptador de texto desarrollado en HTML, CSS y JavaScri
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla](img/Captura%20de%20pantalla.png)
-![Captura de Pantalla](img/Captura%20de%20pantalla02.png)
+![Captura de Pantalla](img/Captura%20de%20pantalla%2002.png)
 
 ## Contribuciones
 
@@ -44,4 +43,4 @@ Este proyecto está licenciado bajo la Licencia Apache 2.0 - consulta el archivo
 
 ## Contacto
 
-Para cualquier consulta o soporte, por favor contacta a flinoz en flinoz91@gmail.com
+Para cualquier consulta o soporte, por favor contacta a flinoz en flinoz91@gmail.com.
