@@ -1,7 +1,5 @@
 document.querySelector(".btn-encriptar").addEventListener("click", encriptar);
-document
-  .querySelector(".btn-desencriptar")
-  .addEventListener("click", desencriptar);
+document.querySelector(".btn-desencriptar").addEventListener("click", desencriptar);
 document.querySelector(".btn-eliminar").addEventListener("click", eliminar);
 document.querySelector(".btn-copiar").addEventListener("click", copiar);
 document.querySelector(".btn-pegar").addEventListener("click", pegar);
