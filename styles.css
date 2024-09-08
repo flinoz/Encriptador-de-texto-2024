@@ -1,128 +1,217 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-bottom: 2px solid #ccc;
+    background-color: hwb(222 94% 2% / 0.918);
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+header p {
+    color: white;
+    /* Cambia el color del texto a blanco */
 }
 
 .logo {
-  width: 150px;
-  margin-bottom: 10px;
+    width: 150px;
+    margin-bottom: 10px;
 }
 
 .heart {
-  color: red;
+    color: red;
 }
 
 main {
-  padding: 20px;
+    padding: 20px;
 }
 
 .texto {
-  width: 80%;
-  height: 150px;
-  margin-bottom: 20px;
-  padding: 10px;
-  font-size: 16px;
+    width: 80%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .buttons {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .btn-encriptar,
 .btn-desencriptar,
 .btn-eliminar {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin: 5px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .btn-encriptar {
-  background-color: #4caf50;
-  color: white;
+    background-color: #4caf50;
+    color: white;
 }
 
 .btn-encriptar:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 .btn-desencriptar {
-  background-color: #2196f3;
-  color: white;
+    background-color: #2196f3;
+    color: white;
 }
 
 .btn-desencriptar:hover {
-  background-color: #0b7dda;
+    background-color: #0b7dda;
 }
 
 .btn-eliminar {
-  background-color: #f44336;
-  color: white;
+    background-color: #f44336;
+    color: white;
 }
 
 .btn-eliminar:hover {
-  background-color: #e53935;
+    background-color: #e53935;
 }
 
 .img-muñeco {
-  width: 150px;
-  margin-top: 20px;
+    width: 150px;
+    margin-top: 20px;
 }
 
 /* Asegura que la sección de íconos esté centrada en la parte inferior */
 .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px; /* Espacio entre el contenido y los íconos */
-  margin-bottom: 20px; /* Espacio desde el borde inferior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* Espacio entre el contenido y los íconos */
+    margin-bottom: 20px;
+    /* Espacio desde el borde inferior */
 }
 
 .social-icon {
-  width: 40px; /* Ajusta el tamaño según sea necesario */
-  height: auto;
-  margin: 0 10px; /* Espacio entre los íconos */
-  transition: transform 0.3s ease;
+    width: 40px;
+    /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin: 0 10px;
+    /* Espacio entre los íconos */
+    transition: transform 0.3s ease;
 }
 
 .social-icon:hover {
-  transform: scale(
-    1.1
-  ); /* Efecto de aumento al pasar el ratón sobre el ícono */
+    transform: scale(1.1);
+    /* Efecto de aumento al pasar el ratón sobre el ícono */
 }
 
 /* Estilo para centrar los íconos y la nueva imagen */
 .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .social-icon {
-  width: 40px;
-  height: auto;
-  margin: 0 10px;
-  transition: transform 0.3s ease;
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
 }
 
 .social-icon:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #mensaje-error {
-  font-size: 16px; /* Aumenta ligeramente el tamaño de la fuente */
-  color: red; /* Color rojo para el mensaje */
+    font-size: 16px;
+    /* Aumenta ligeramente el tamaño de la fuente */
+    color: rgb(173, 40, 40);
+    /* Color rojo para el mensaje */
+}
+
+body {
+    background-image: url('img/fondo02.jpg');
+    background-size: cover;
+    /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-attachment: fixed;
+    /* Fija la imagen al fondo para que no se mueva con el scroll */
+    background-color: #f0f0f0;
+    /* Color de fondo para los espacios vacíos */
+}
+
+header {
+    background-color: transparent;
+    /* Hace el fondo del header transparente */
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+    /* Puedes mantener el borde si lo deseas */
+}
+
+.btn-copiar {
+    background-color: #ff9800;
+    /* Naranja */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-copiar:hover {
+    background-color: #e68a00;
+    /* Efecto hover */
+}
+
+.titulo-header {
+    color: white;
+    /* Cambia el color del texto a blanco */
+    margin: 0;
+    /* Elimina el margen superior e inferior para que se ajuste al diseño */
+    padding: 10px 0;
+    /* Opcional: ajusta el padding según sea necesario */
+    font-size: 24px;
+    /* Ajusta el tamaño de fuente según prefieras */
+}
+
+.btn-pegar {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #f1c40f;
+    /* Color de fondo del botón, puedes ajustarlo según el diseño */
+    color: white;
+}
+
+.btn-pegar:hover {
+    background-color: #e67e22;
+    /* Color de fondo al pasar el ratón sobre el botón */
+}
+
+#titulo-mensaje {
+    color: white;
+    /* Establece el color blanco para el texto del título del mensaje */
+}
+
+#parrafo {
+    color: white;
+    /* Establece el color blanco para el texto del párrafo */
 }
