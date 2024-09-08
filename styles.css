@@ -35,6 +35,9 @@ main {
     margin-bottom: 20px;
     padding: 10px;
     font-size: 16px;
+    background-color: transparent; /* Fondo transparente */
+    border: 1px solid #ccc; /* Borde del cuadro de texto */
+    color: #000; /* Color del texto */
 }
 
 .buttons {
