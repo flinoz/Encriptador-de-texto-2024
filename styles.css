@@ -11,10 +11,10 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
-header p {
-    color: white;
-    /* Cambia el color del texto a blanco */
-}
+    header p {
+        color: white;
+        /* Cambia el color del texto a blanco */
+    }
 
 .logo {
     width: 150px;
@@ -58,27 +58,27 @@ main {
     color: white;
 }
 
-.btn-encriptar:hover {
-    background-color: #45a049;
-}
+    .btn-encriptar:hover {
+        background-color: #45a049;
+    }
 
 .btn-desencriptar {
     background-color: #2196f3;
     color: white;
 }
 
-.btn-desencriptar:hover {
-    background-color: #0b7dda;
-}
+    .btn-desencriptar:hover {
+        background-color: #0b7dda;
+    }
 
 .btn-eliminar {
     background-color: #f44336;
     color: white;
 }
 
-.btn-eliminar:hover {
-    background-color: #e53935;
-}
+    .btn-eliminar:hover {
+        background-color: #e53935;
+    }
 
 .img-muñeco {
     width: 150px;
@@ -105,10 +105,10 @@ main {
     transition: transform 0.3s ease;
 }
 
-.social-icon:hover {
-    transform: scale(1.1);
-    /* Efecto de aumento al pasar el ratón sobre el ícono */
-}
+    .social-icon:hover {
+        transform: scale(1.1);
+        /* Efecto de aumento al pasar el ratón sobre el ícono */
+    }
 
 /* Estilo para centrar los íconos y la nueva imagen */
 .social-icons {
@@ -126,9 +126,9 @@ main {
     transition: transform 0.3s ease;
 }
 
-.social-icon:hover {
-    transform: scale(1.1);
-}
+    .social-icon:hover {
+        transform: scale(1.1);
+    }
 
 #mensaje-error {
     font-size: 16px;
@@ -172,10 +172,10 @@ header {
     transition: background-color 0.3s;
 }
 
-.btn-copiar:hover {
-    background-color: #e68a00;
-    /* Efecto hover */
-}
+    .btn-copiar:hover {
+        background-color: #e68a00;
+        /* Efecto hover */
+    }
 
 .titulo-header {
     color: white;
@@ -201,10 +201,10 @@ header {
     color: white;
 }
 
-.btn-pegar:hover {
-    background-color: #e67e22;
-    /* Color de fondo al pasar el ratón sobre el botón */
-}
+    .btn-pegar:hover {
+        background-color: #e67e22;
+        /* Color de fondo al pasar el ratón sobre el botón */
+    }
 
 #titulo-mensaje {
     color: white;
