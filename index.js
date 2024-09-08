@@ -3,6 +3,8 @@ document
   .querySelector(".btn-desencriptar")
   .addEventListener("click", desencriptar);
 document.querySelector(".btn-eliminar").addEventListener("click", eliminar);
+document.querySelector(".btn-copiar").addEventListener("click", copiar);
+document.querySelector(".btn-pegar").addEventListener("click", pegar);
 
 function encriptar() {
   let texto = document.getElementById("texto").value;
@@ -63,6 +65,30 @@ function eliminar() {
   document.getElementById("titulo-mensaje").textContent = "Mensaje eliminado";
   document.getElementById("parrafo").textContent = "";
   document.getElementById("muñeco").src = "img/muñeco.png"; // Actualiza la imagen al eliminar el texto
+}
+
+function copiar() {
+  const texto = document.getElementById("texto").value;
+  navigator.clipboard
+    .writeText(texto)
+    .then(() => {
+      document.getElementById("titulo-mensaje").textContent = "Mensaje copiado"; // Actualiza el mensaje
+    })
+    .catch((err) => {
+      console.error("Error al copiar el texto: ", err);
+    });
+}
+
+function pegar() {
+  navigator.clipboard
+    .readText()
+    .then((text) => {
+      document.getElementById("texto").value = text; // Pega el texto en el campo
+      document.getElementById("titulo-mensaje").textContent = "Mensaje pegado"; // Muestra el mensaje de pegado
+    })
+    .catch((err) => {
+      console.error("Error al pegar el texto: ", err);
+    });
 }
 
 function validarTexto() {
