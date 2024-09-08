@@ -8,12 +8,11 @@ body {
 header {
     background-color: hwb(222 94% 2% / 0.918);
     padding: 20px;
-    border-bottom: 2px solid #ccc;
 }
 
     header p {
         color: white;
-        /* Cambia el color del texto a blanco */
+        /* Se cambia el color del texto a blanco */
     }
 
 .logo {
@@ -37,8 +36,13 @@ main {
     font-size: 16px;
     background-color: transparent; /* Fondo transparente */
     border: 1px solid #ccc; /* Borde del cuadro de texto */
-    color: #000; /* Color del texto */
+    color: white; /* Color del texto ingresado */
 }
+
+    /* Color blanco para el texto del marcador de posición */
+    .texto::placeholder {
+        color: white;
+    }
 
 .buttons {
     margin-bottom: 20px;
@@ -88,7 +92,6 @@ main {
     margin-top: 20px;
 }
 
-/* Asegura que la sección de íconos esté centrada en la parte inferior */
 .social-icons {
     display: flex;
     justify-content: center;
@@ -101,7 +104,7 @@ main {
 
 .social-icon {
     width: 40px;
-    /* Ajusta el tamaño según sea necesario */
+    /* Se ajusta el tamaño según sea necesario */
     height: auto;
     margin: 0 10px;
     /* Espacio entre los íconos */
@@ -113,7 +116,7 @@ main {
         /* Efecto de aumento al pasar el ratón sobre el ícono */
     }
 
-/* Estilo para centrar los íconos y la nueva imagen */
+/* Estilo para centrar los íconos y la imagen */
 .social-icons {
     display: flex;
     justify-content: center;
@@ -135,7 +138,7 @@ main {
 
 #mensaje-error {
     font-size: 16px;
-    /* Aumenta ligeramente el tamaño de la fuente */
+    /* Se sumenta ligeramente el tamaño de la fuente */
     color: rgb(173, 40, 40);
     /* Color rojo para el mensaje */
 }
@@ -184,7 +187,7 @@ header {
     color: white;
     /* Cambia el color del texto a blanco */
     margin: 0;
-    /* Elimina el margen superior e inferior para que se ajuste al diseño */
+    /* Se elimina el margen superior e inferior para que se ajuste al diseño */
     padding: 10px 0;
     /* Opcional: ajusta el padding según sea necesario */
     font-size: 24px;
@@ -200,7 +203,7 @@ header {
     border-radius: 5px;
     transition: background-color 0.3s;
     background-color: #f1c40f;
-    /* Color de fondo del botón, puedes ajustarlo según el diseño */
+    /* Color de fondo del botón, se puede ajustar según el diseño */
     color: white;
 }
 
@@ -211,10 +214,24 @@ header {
 
 #titulo-mensaje {
     color: white;
-    /* Establece el color blanco para el texto del título del mensaje */
+    /* Se establece el color blanco para el texto del título del mensaje */
 }
 
 #parrafo {
     color: white;
-    /* Establece el color blanco para el texto del párrafo */
+    /* Se establece el color blanco para el texto del párrafo */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none; /* Se elimina cualquier borde */
+    box-shadow: none; /* Se elimina cualquier sombra */
+}
+
+header, main {
+    border: none; /* Se elimina cualquier borde que pueda aparecer como una línea divisoria */
+    box-shadow: none; /* Se elimina cualquier sombra que pueda parecer una línea divisoria */
+    margin: 0; /* Se elimina cualquier margen que pueda estar creando espacio entre los elementos */
+    padding: 0; /* Se elimina cualquier relleno innecesario que pueda estar afectando el espacio */
 }
